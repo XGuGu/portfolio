@@ -345,7 +345,10 @@
 					ul.social li.linkedin:hover				{ background-color: #006599; }
 
 					ul.social li.github a {
-						background: url('images/GitHubMark.png');
+						background: url('images/github.png');
+						background-repeat: no-repeat;
+    				background-size: 48px 48px;
+						opacity: 0.5;
 						display: block;
 						position: relative;
 						/* background: url('images/social.png'); */
@@ -355,6 +358,9 @@
 						outline: 0;
 					}
 					ul.social li.github:hover			{ background-color: #DA2713; }
+
+
+
 			ul.social li:hover
 			{
 				top: -5px;
